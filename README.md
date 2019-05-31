@@ -1,5 +1,5 @@
 # web-231
 Introduction to JavaScript
 # contributors 
-Professor Eltayeb - Bellevue University
+Professor Krasso - Bellevue University
 Tiffany Baker - Bellevue University
