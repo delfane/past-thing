@@ -1,0 +1,33 @@
+/*
+============================================
+; Title: discussion 1.1
+; Author: Tiffaany Baker
+; Date: 5/30/2019
+; Modified By: <tiffany baker>
+; Description: small javascript program showing variables.
+;===========================================
+*/ 
+
+<!DOCTYPE html> 
+<html>
+<body>
+    <h1>Hello there!</h1><!--beginning html-->
+    <h3>Please get:</h3>
+    <p id="need"></p><!--list shown-->
+    <p>Thank You.</p>
+
+    <script>
+    var ans, text, list, i; //varibles declared
+    ans = ["broccoli","cheese","milk","apples","juice"];//choices in list
+    list = ans.length//length equals amount of choices 
+
+    text = "<ul>";//text = html 
+    for (i = 0; i< ans.length; i++) // for statement that creates list from variable
+        {
+            text += "<li>" + ans[i] + "</li>"; 
+        }
+    text += "</ul>";
+    document.getElementById("need".innerHTML = text;// shows list 
+    </script>
+</body>
+</html>
